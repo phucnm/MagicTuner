@@ -15,6 +15,7 @@
 		0250DCCF1D77DF5600E79E07 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250DCCE1D77DF5600E79E07 /* Constants.swift */; };
 		0250DCD11D77DF6F00E79E07 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250DCD01D77DF6F00E79E07 /* UIColor.swift */; };
 		0250DCD31D78108800E79E07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0250DCD21D78108800E79E07 /* GoogleService-Info.plist */; };
+		0250DCD51D78288E00E79E07 /* RateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250DCD41D78288E00E79E07 /* RateApp.swift */; };
 		B42F9BB47B79F2AC24FD860E /* Pods_MagicTuner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0658624D095287E44BC02EB4 /* Pods_MagicTuner.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		0250DCCE1D77DF5600E79E07 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0250DCD01D77DF6F00E79E07 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		0250DCD21D78108800E79E07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0250DCD41D78288E00E79E07 /* RateApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateApp.swift; sourceTree = "<group>"; };
 		0658624D095287E44BC02EB4 /* Pods_MagicTuner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicTuner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17774ECD7C8DCB0C2CE6274A /* Pods-MagicTuner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTuner.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTuner/Pods-MagicTuner.release.xcconfig"; sourceTree = "<group>"; };
 		26ACEB720EBF5729E88F3F46 /* Pods-MagicTuner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTuner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTuner/Pods-MagicTuner.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		0250DCCB1D77DF3C00E79E07 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				0250DCD41D78288E00E79E07 /* RateApp.swift */,
 				0250DCCE1D77DF5600E79E07 /* Constants.swift */,
 				0250DCCC1D77DF3C00E79E07 /* Custom Controls */,
 				0250DCCD1D77DF3C00E79E07 /* Extensions */,
@@ -244,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0250DCD51D78288E00E79E07 /* RateApp.swift in Sources */,
 				0250DCBA1D77D82E00E79E07 /* MainViewController.swift in Sources */,
 				0250DCD11D77DF6F00E79E07 /* UIColor.swift in Sources */,
 				0250DCB81D77D82E00E79E07 /* AppDelegate.swift in Sources */,
@@ -363,11 +367,14 @@
 			baseConfigurationReference = 26ACEB720EBF5729E88F3F46 /* Pods-MagicTuner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MagicTuner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pn.magictuner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d3fa2ca5-ca8d-4385-9dd1-c8a2d09e04bc";
 			};
 			name = Debug;
 		};
@@ -376,11 +383,14 @@
 			baseConfigurationReference = 17774ECD7C8DCB0C2CE6274A /* Pods-MagicTuner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MagicTuner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pn.magictuner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d3fa2ca5-ca8d-4385-9dd1-c8a2d09e04bc";
 			};
 			name = Release;
 		};

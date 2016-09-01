@@ -44,6 +44,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        rateApp(self, immediatly: nil)
         UIApplication.sharedApplication().statusBarStyle = .LightContent
         
         frequencyLabel.morphingEffect = .Evaporate
@@ -89,7 +90,6 @@ class MainViewController: UIViewController {
     }
     
     func updateUI() {
-        print(tracker.amplitude)
         if tracker.amplitude > 0.1 {
             //print("\(tracker.frequency) abc\(tracker.amplitude)")
             lastFrequencies.append(tracker.frequency)
@@ -156,5 +156,17 @@ class MainViewController: UIViewController {
 //        noteNameWithFlatsLabel.text = "\(noteNamesWithFlats[index])\(octave)"
     }
 
+    @IBAction func infoTapped(sender: AnyObject) {
+        let alert = UIAlertController(title: "Info", message: "phucnguyenpr@gmail.com", preferredStyle: .Alert)
+        
+        let ok = UIAlertAction(title: "OK", style: .Cancel) { _ in
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }
+        
+        alert.addAction(ok)
+        
+        presentViewController(alert, animated: true, completion: nil)
+    }
+    
 }
 
