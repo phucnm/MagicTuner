@@ -1,0 +1,6 @@
+framework module Pods_MagicTuner {
+  umbrella header "Pods-MagicTuner-umbrella.h"
+
+  export *
+  module * { export * }
+}

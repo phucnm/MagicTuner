@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AudioKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>LTMorphingLabel.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-MagicTuner.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0C4798DD7FEBB19BDBADFFBB2F4F8748</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3698F7E4379D8522BD2003561406979F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C900E8E2449EBBCC12128A9BDA69E7F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>96D3B008E86008B3F7FABFB8CA782222</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

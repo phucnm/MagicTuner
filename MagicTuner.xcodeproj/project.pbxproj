@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		0250DCB81D77D82E00E79E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250DCB71D77D82E00E79E07 /* AppDelegate.swift */; };
-		0250DCBA1D77D82E00E79E07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250DCB91D77D82E00E79E07 /* ViewController.swift */; };
+		0250DCBA1D77D82E00E79E07 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250DCB91D77D82E00E79E07 /* MainViewController.swift */; };
 		0250DCBD1D77D82E00E79E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0250DCBB1D77D82E00E79E07 /* Main.storyboard */; };
 		0250DCBF1D77D82E00E79E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0250DCBE1D77D82E00E79E07 /* Assets.xcassets */; };
 		0250DCC21D77D82E00E79E07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0250DCC01D77D82E00E79E07 /* LaunchScreen.storyboard */; };
+		0250DCCF1D77DF5600E79E07 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250DCCE1D77DF5600E79E07 /* Constants.swift */; };
+		0250DCD11D77DF6F00E79E07 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250DCD01D77DF6F00E79E07 /* UIColor.swift */; };
+		0250DCD31D78108800E79E07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0250DCD21D78108800E79E07 /* GoogleService-Info.plist */; };
+		B42F9BB47B79F2AC24FD860E /* Pods_MagicTuner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0658624D095287E44BC02EB4 /* Pods_MagicTuner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0250DCB41D77D82E00E79E07 /* MagicTuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicTuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0250DCB71D77D82E00E79E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0250DCB91D77D82E00E79E07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0250DCB91D77D82E00E79E07 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0250DCBC1D77D82E00E79E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0250DCBE1D77D82E00E79E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0250DCC11D77D82E00E79E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0250DCC31D77D82E00E79E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0250DCCE1D77DF5600E79E07 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0250DCD01D77DF6F00E79E07 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		0250DCD21D78108800E79E07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0658624D095287E44BC02EB4 /* Pods_MagicTuner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicTuner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17774ECD7C8DCB0C2CE6274A /* Pods-MagicTuner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTuner.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTuner/Pods-MagicTuner.release.xcconfig"; sourceTree = "<group>"; };
+		26ACEB720EBF5729E88F3F46 /* Pods-MagicTuner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTuner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTuner/Pods-MagicTuner.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B42F9BB47B79F2AC24FD860E /* Pods_MagicTuner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				0250DCB61D77D82E00E79E07 /* MagicTuner */,
 				0250DCB51D77D82E00E79E07 /* Products */,
+				8AF2836EBD057955B1358BB8 /* Pods */,
+				A85FAB52511E9DD98094D026 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,58 @@
 		0250DCB61D77D82E00E79E07 /* MagicTuner */ = {
 			isa = PBXGroup;
 			children = (
+				0250DCCB1D77DF3C00E79E07 /* Library */,
 				0250DCB71D77D82E00E79E07 /* AppDelegate.swift */,
-				0250DCB91D77D82E00E79E07 /* ViewController.swift */,
+				0250DCB91D77D82E00E79E07 /* MainViewController.swift */,
 				0250DCBB1D77D82E00E79E07 /* Main.storyboard */,
 				0250DCBE1D77D82E00E79E07 /* Assets.xcassets */,
 				0250DCC01D77D82E00E79E07 /* LaunchScreen.storyboard */,
+				0250DCD21D78108800E79E07 /* GoogleService-Info.plist */,
 				0250DCC31D77D82E00E79E07 /* Info.plist */,
 			);
 			path = MagicTuner;
+			sourceTree = "<group>";
+		};
+		0250DCCB1D77DF3C00E79E07 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0250DCCE1D77DF5600E79E07 /* Constants.swift */,
+				0250DCCC1D77DF3C00E79E07 /* Custom Controls */,
+				0250DCCD1D77DF3C00E79E07 /* Extensions */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0250DCCC1D77DF3C00E79E07 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		0250DCCD1D77DF3C00E79E07 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0250DCD01D77DF6F00E79E07 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8AF2836EBD057955B1358BB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26ACEB720EBF5729E88F3F46 /* Pods-MagicTuner.debug.xcconfig */,
+				17774ECD7C8DCB0C2CE6274A /* Pods-MagicTuner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A85FAB52511E9DD98094D026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0658624D095287E44BC02EB4 /* Pods_MagicTuner.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0250DCC61D77D82E00E79E07 /* Build configuration list for PBXNativeTarget "MagicTuner" */;
 			buildPhases = (
+				36D937100199F4ABD85E18C1 /* 📦 Check Pods Manifest.lock */,
 				0250DCB01D77D82E00E79E07 /* Sources */,
 				0250DCB11D77D82E00E79E07 /* Frameworks */,
 				0250DCB21D77D82E00E79E07 /* Resources */,
+				155B2583CF5827AE63B0F987 /* 📦 Embed Pods Frameworks */,
+				C98BBB41B46FC5F0C1AD6D83 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0250DCC21D77D82E00E79E07 /* LaunchScreen.storyboard in Resources */,
+				0250DCD31D78108800E79E07 /* GoogleService-Info.plist in Resources */,
 				0250DCBF1D77D82E00E79E07 /* Assets.xcassets in Resources */,
 				0250DCBD1D77D82E00E79E07 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +191,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		155B2583CF5827AE63B0F987 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTuner/Pods-MagicTuner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36D937100199F4ABD85E18C1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C98BBB41B46FC5F0C1AD6D83 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTuner/Pods-MagicTuner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0250DCB01D77D82E00E79E07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0250DCBA1D77D82E00E79E07 /* ViewController.swift in Sources */,
+				0250DCBA1D77D82E00E79E07 /* MainViewController.swift in Sources */,
+				0250DCD11D77DF6F00E79E07 /* UIColor.swift in Sources */,
 				0250DCB81D77D82E00E79E07 /* AppDelegate.swift in Sources */,
+				0250DCCF1D77DF5600E79E07 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,24 +360,26 @@
 		};
 		0250DCC71D77D82E00E79E07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26ACEB720EBF5729E88F3F46 /* Pods-MagicTuner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MagicTuner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pn.MagicTuner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pn.magictuner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		0250DCC81D77D82E00E79E07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17774ECD7C8DCB0C2CE6274A /* Pods-MagicTuner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MagicTuner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pn.MagicTuner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pn.magictuner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -290,6 +403,7 @@
 				0250DCC81D77D82E00E79E07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
